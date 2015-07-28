@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<entity version="2">
+    <settings>
+        <linkedResourcePools>
+            <resourcePool path="Resources/sprites/main.sprites" />
+        </linkedResourcePools>
+        <layers />
+    </settings>
+    <root polystring:id="" layerID="0" polystring:tags="" type="Entity" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="0.000000" pY="0.000000" pZ="0.000000" bbX="0.000000" bbY="0.000000" bbZ="0.001000">
+        <children>
+            <child polystring:id="" layerID="0" polystring:tags="" type="SceneSprite" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.077870" sY="1.077870" sZ="1.077870" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="0.000000" pY="-0.021838" pZ="0.000000" bbX="1.144531" bbY="0.906250" bbZ="0.001000">
+                <SceneSprite sprite_set="Resources/sprites/main.sprites" sprite="alien" random_frame="false" state="default" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="Unlit">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/spritesheet1.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+        </children>
+    </root>
+</entity>

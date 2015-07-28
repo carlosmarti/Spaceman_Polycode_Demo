@@ -1,0 +1,183 @@
+<?xml version="1.0" ?>
+<entity version="2">
+    <settings>
+        <linkedResourcePools>
+            <resourcePool path="Resources/sprites/main.sprites" />
+        </linkedResourcePools>
+        <layers>
+            <layer name="background" id="1" visible="true" />
+        </layers>
+    </settings>
+    <root polystring:id="" layerID="0" polystring:tags="" type="Entity" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="0.000000" pY="0.000000" pZ="0.000000" bbX="0.000000" bbY="0.000000" bbZ="0.001000">
+        <children>
+            <child polystring:id="" layerID="0" polystring:tags="" type="ScenePrimitive" cR="0.849735" cG="0.776717" cB="0.925134" cA="1.000000" blendMode="0" sX="0.052944" sY="0.052944" sZ="0.052944" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="0.000000" pY="0.000000" pZ="0.000000" bbX="480.000000" bbY="270.000000" bbZ="0.001000">
+                <ScenePrimitive type="2" p1="480.000000" p2="270.000000" p3="1.000000" p4="0.000000" p5="0.000000" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="Unlit">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/bg.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child polystring:id="" layerID="0" tags="shot" type="SceneSprite" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="13.223200" pY="-1.297460" pZ="0.000000" bbX="0.750000" bbY="0.150000" bbZ="0.001000">
+                <SceneSprite sprite_set="Resources/sprites/main.sprites" sprite="shot" random_frame="false" state="default" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="UnlitAdditive">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/spritesheet1.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child polystring:id="" layerID="0" tags="shot" type="SceneSprite" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="13.223200" pY="-0.923420" pZ="0.000000" bbX="0.750000" bbY="0.150000" bbZ="0.001000">
+                <SceneSprite sprite_set="Resources/sprites/main.sprites" sprite="shot" random_frame="false" state="default" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="UnlitAdditive">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/spritesheet1.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child polystring:id="" layerID="0" tags="shot" type="SceneSprite" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="13.223200" pY="-0.467555" pZ="0.000000" bbX="0.750000" bbY="0.150000" bbZ="0.001000">
+                <SceneSprite sprite_set="Resources/sprites/main.sprites" sprite="shot" random_frame="false" state="default" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="UnlitAdditive">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/spritesheet1.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child polystring:id="" layerID="0" tags="shot" type="SceneSprite" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="13.223200" pY="0.000000" pZ="0.000000" bbX="0.750000" bbY="0.150000" bbZ="0.001000">
+                <SceneSprite sprite_set="Resources/sprites/main.sprites" sprite="shot" random_frame="false" state="default" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="UnlitAdditive">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/spritesheet1.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child polystring:id="" layerID="0" tags="alien" type="SceneEntityInstance" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="15.158200" pY="2.184270" pZ="0.000000" bbX="0.800000" bbY="0.800000" bbZ="0.001000">
+                <SceneEntityInstance filePath="Resources/entities/alien.entity" />
+            </child>
+            <child polystring:id="" layerID="0" tags="shot" type="SceneSprite" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="13.223200" pY="-1.723640" pZ="0.000000" bbX="0.750000" bbY="0.150000" bbZ="0.001000">
+                <SceneSprite sprite_set="Resources/sprites/main.sprites" sprite="shot" random_frame="false" state="default" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="UnlitAdditive">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/spritesheet1.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child polystring:id="" layerID="0" tags="shot" type="SceneSprite" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="13.223200" pY="-2.217100" pZ="0.000000" bbX="0.750000" bbY="0.150000" bbZ="0.001000">
+                <SceneSprite sprite_set="Resources/sprites/main.sprites" sprite="shot" random_frame="false" state="default" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="UnlitAdditive">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/spritesheet1.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child id="player" layerID="0" polystring:tags="" type="SceneEntityInstance" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="0.231572" pY="1.589560" pZ="0.000000" bbX="0.700000" bbY="1.000000" bbZ="0.001000">
+                <SceneEntityInstance filePath="Resources/entities/spaceman.entity" />
+            </child>
+            <child polystring:id="" layerID="0" tags="platform" type="SceneSprite" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="2.572580" sY="2.572580" sZ="2.572580" rX="0.000000" rY="0.000000" rZ="0.026412" rW="0.999651" pX="0.000000" pY="-2.128340" pZ="0.000000" bbX="2.406250" bbY="0.820313" bbZ="0.001000">
+                <SceneSprite sprite_set="Resources/sprites/main.sprites" sprite="platform1" random_frame="false" state="default" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="Unlit">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/spritesheet1.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child polystring:id="" layerID="0" tags="platform" type="SceneSprite" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.457820" sY="1.457820" sZ="1.457820" rX="0.000000" rY="0.000000" rZ="-0.098092" rW="0.995177" pX="-8.264600" pY="-4.230490" pZ="0.000000" bbX="2.406250" bbY="0.820313" bbZ="0.001000">
+                <SceneSprite sprite_set="Resources/sprites/main.sprites" sprite="platform1" random_frame="false" state="default" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="Unlit">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/spritesheet1.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child polystring:id="" layerID="0" tags="platform" type="SceneSprite" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.457820" sY="1.457820" sZ="1.457820" rX="0.000000" rY="0.000000" rZ="0.071745" rW="0.997423" pX="-4.456650" pY="2.132470" pZ="0.000000" bbX="2.406250" bbY="0.820313" bbZ="0.001000">
+                <SceneSprite sprite_set="Resources/sprites/main.sprites" sprite="platform1" random_frame="false" state="default" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="Unlit">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/spritesheet1.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child polystring:id="" layerID="0" tags="platform" type="SceneSprite" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.457820" sY="1.457820" sZ="1.457820" rX="0.000000" rY="0.000000" rZ="-0.021800" rW="0.999762" pX="4.883060" pY="2.325450" pZ="0.000000" bbX="2.406250" bbY="0.820313" bbZ="0.001000">
+                <SceneSprite sprite_set="Resources/sprites/main.sprites" sprite="platform1" random_frame="false" state="default" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="Unlit">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/spritesheet1.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child polystring:id="" layerID="0" tags="platform" type="SceneSprite" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.457820" sY="1.457820" sZ="1.457820" rX="0.000000" rY="0.000000" rZ="0.126274" rW="0.991995" pX="8.602030" pY="-4.638350" pZ="0.000000" bbX="2.406250" bbY="0.820313" bbZ="0.001000">
+                <SceneSprite sprite_set="Resources/sprites/main.sprites" sprite="platform1" random_frame="false" state="default" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="Unlit">
+                    <shader_options>
+                        <shader>
+                            <textures>
+                                <texture name="diffuse">Resources/textures/spritesheet1.png</texture>
+                            </textures>
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child polystring:id="" layerID="0" tags="alien" type="SceneEntityInstance" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="15.158200" pY="3.437730" pZ="0.000000" bbX="0.800000" bbY="0.800000" bbZ="0.001000">
+                <SceneEntityInstance filePath="Resources/entities/alien.entity" />
+            </child>
+            <child polystring:id="" layerID="0" tags="alien" type="SceneEntityInstance" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="15.158200" pY="4.719040" pZ="0.000000" bbX="0.800000" bbY="0.800000" bbZ="0.001000">
+                <SceneEntityInstance filePath="Resources/entities/alien.entity" />
+            </child>
+            <child polystring:id="" layerID="0" tags="alien" type="SceneEntityInstance" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="15.158200" pY="5.888930" pZ="0.000000" bbX="0.800000" bbY="0.800000" bbZ="0.001000">
+                <SceneEntityInstance filePath="Resources/entities/alien.entity" />
+            </child>
+            <child polystring:id="" layerID="0" tags="alien" type="SceneEntityInstance" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="15.158200" pY="7.225950" pZ="0.000000" bbX="0.800000" bbY="0.800000" bbZ="0.001000">
+                <SceneEntityInstance filePath="Resources/entities/alien.entity" />
+            </child>
+            <child polystring:id="" layerID="0" tags="alien" type="SceneEntityInstance" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="15.158200" pY="8.590830" pZ="0.000000" bbX="0.800000" bbY="0.800000" bbZ="0.001000">
+                <SceneEntityInstance filePath="Resources/entities/alien.entity" />
+            </child>
+            <child polystring:id="" layerID="0" tags="alien" type="SceneEntityInstance" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="15.158200" pY="9.855060" pZ="0.000000" bbX="0.800000" bbY="0.800000" bbZ="0.001000">
+                <SceneEntityInstance filePath="Resources/entities/alien.entity" />
+            </child>
+        </children>
+    </root>
+</entity>
